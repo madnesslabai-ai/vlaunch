@@ -6,32 +6,71 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg)](https://www.typescriptlang.org/)
 [![GitHub release](https://img.shields.io/github/v/release/madnesslabai-ai/vlaunch)](https://github.com/madnesslabai-ai/vlaunch/releases)
 
-A CLI that generates launch-ready assets from three inputs: a URL, a short description, and a target audience.
+# vLaunch
 
-Built for indie hackers and solo founders who want structured launch prep without a marketing team.
+vLaunch is a CLI for generating, reviewing, and refining launch assets from three inputs: a URL, a short description, and a target audience.
+
+It is built for founders, builders, and small teams who want structured launch preparation without relying on a full marketing workflow.
 
 ## What It Does
 
-vLaunch takes your project and produces 8 structured assets:
+vLaunch takes a project and generates a structured launch package as editable local files.
+
+Core outputs include:
 
 | Asset | File | Description |
 |-------|------|-------------|
-| Project Summary | `project-summary.md` | Structured overview with metadata |
-| Positioning | `positioning.md` | One-liner, tagline, value prop, problem/solution |
+| Positioning | `positioning.md` | One-liner, tagline, value proposition, problem/solution framing |
 | Routing Plan | `routing-plan.md` | Prioritized launch platforms with reasoning |
-| Product Hunt Draft | `producthunt.md` | Tagline, pitch, first comment, launch checklist |
-| Medium Draft | `medium-draft.md` | Publishable launch story |
-| Directory Listings | `directories.json` | Platform-tailored directory entries |
+| Product Hunt Draft | `producthunt.md` | Tagline, pitch, first comment, and launch checklist |
+| Medium Draft | `medium-draft.md` | Long-form launch draft |
+| Directory Listings | `directories.json` | Platform-tailored listing copy |
 | Affiliate Copy | `affiliate.md` | Partner outreach templates and commission framing |
 | Launch Checklist | `checklist.md` | Readiness assessment with next actions |
 
-Plus a `launch-manifest.json` with machine-readable metadata, a `consistency-report.md` that catches messaging drift across assets, and a `refinement-plan.json` for structured revision.
+vLaunch also generates machine-readable and validation outputs, including:
+
+- `launch-manifest.json` — machine-readable run metadata
+- `consistency-report.md` — cross-asset consistency checks
+- `refinement-plan.md` / `refinement-plan.json` — structured revision suggestions
 
 ## Two Modes
 
-**Deterministic (no API key needed):** Template-based generation using keyword matching, category detection, and structured heuristics. Produces usable drafts immediately.
+**Deterministic (no API key required)**  
+Template-based generation using category detection, structured heuristics, and rule-based assembly. Produces usable drafts immediately.
 
-**AI-enhanced (`--ai` flag):** Uses Anthropic Claude to rewrite each asset with product-specific language, strategic reasoning, and natural voice. Requires an `ANTHROPIC_API_KEY` in your `.env` file. Falls back to deterministic output if the API call fails.
+**AI-enhanced (`--ai`)**  
+Uses Anthropic Claude to improve each asset with product-specific language, strategic reasoning, and more natural narrative flow. Requires `ANTHROPIC_API_KEY` in `.env`. If AI enhancement fails, deterministic output is preserved.
+
+## Quick Start
+
+```bash
+npm install
+npm run build
+
+# Full deterministic pipeline
+npx vlaunch run \
+  --url "https://yourproject.com" \
+  --description "A tool that does X" \
+  --audience "founders and builders"
+
+# Full AI-enhanced pipeline
+npx vlaunch run \
+  --url "https://yourproject.com" \
+  --description "A tool that does X" \
+  --audience "founders and builders" \
+  --ai
+
+# Consistency check
+npx vlaunch check
+
+# Generate a refinement plan
+npx vlaunch review
+
+# Apply a suggested revision
+npx vlaunch refine-apply 1
+
+All outputs are written to .vlaunch/ as markdown and JSON files that can be edited, committed, and reused in other workflows.
 
 ## Quick Start
 
@@ -108,18 +147,18 @@ Each command can be run independently. Pass `--ai` to enable AI enhancement on s
 ## Examples
 
 See [`EXAMPLES-INDEX.md`](EXAMPLES-INDEX.md) for complete example outputs.
-
+Current public examples include:
 - **`examples/oddsflow-ai/`** — Full AI-enhanced pipeline output (all 8 assets + manifest + consistency report)
 - **`examples/oddsflow/`** — Deterministic-only baseline for the same product
 
 ## Limitations
 
-- **v0.1.0** — early-stage, built during vibe coding
-- Copy is structured drafts, not publish-ready — human review expected
-- AI enhancement quality depends on API credits and prompt fit
-- No web UI — CLI-first, file-based
-- No live platform submission — generates drafts, not submissions
-- Category detection covers common verticals but is not exhaustive
+- vLaunch generates structured drafts, not final publish-without-review copy
+- AI-enhanced output depends on model availability, credits, and prompt fit
+- No web UI — CLI-first and file-based by design
+- No direct platform submission — vLaunch prepares assets, it does not post them
+- Category detection covers common product types, but is not exhaustive
+
 
 ## Setup for AI Enhancement
 
