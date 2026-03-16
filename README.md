@@ -1,5 +1,11 @@
 # vLaunch
 
+[![CI](https://github.com/madnesslabai-ai/vlaunch/actions/workflows/ci.yml/badge.svg)](https://github.com/madnesslabai-ai/vlaunch/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg)](https://www.typescriptlang.org/)
+[![GitHub release](https://img.shields.io/github/v/release/madnesslabai-ai/vlaunch)](https://github.com/madnesslabai-ai/vlaunch/releases)
+
 A CLI that generates launch-ready assets from three inputs: a URL, a short description, and a target audience.
 
 Built for indie hackers and solo founders who want structured launch prep without a marketing team.
