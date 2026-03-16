@@ -1,0 +1,37 @@
+[
+  {
+    "name": "YouTube",
+    "category": "content",
+    "priority": 1,
+    "suggested_description": "Zi Wei Dou Shu AI: free Zi Wei Dou Shu chart calculator powered by AI. Generate your Purple Star Astrology birth chart, verify past events, and decode your destiny matrix. Ancient 紫微斗数 wisdom meets quantum probability modeling. Gives people interested in zi wei astrology and self-discovery the insights and tools they need.",
+    "reason": "Video reviews, demos, and tutorials. High trust and discoverability."
+  },
+  {
+    "name": "Reddit",
+    "category": "community",
+    "priority": 2,
+    "suggested_description": "Zi Wei Dou Shu AI is free Zi Wei Dou Shu chart calculator powered by AI. Generate your Purple Star Astrology birth chart, verify past events, and decode your destiny matrix. Ancient 紫微斗数 wisdom meets quantum probability modeling. Built for people interested in zi wei astrology and self-discovery — feedback welcome.",
+    "reason": "Community-driven discussion. Reach niche audiences in relevant subreddits."
+  },
+  {
+    "name": "Product Hunt",
+    "category": "launch",
+    "priority": 3,
+    "suggested_description": "Zi Wei Dou Shu AI — free Zi Wei Dou Shu chart calculator powered by AI. Generate your Purple Star Astrology birth chart, verify past events, and decode your destiny matrix. Ancient 紫微斗数 wisdom meets quantum probability modeling. Designed for people interested in zi wei astrology and self-discovery who want data-driven results.",
+    "reason": "High-visibility launch platform for new products. Strong with early adopters and tech audiences."
+  },
+  {
+    "name": "Medium",
+    "category": "content",
+    "priority": 4,
+    "suggested_description": "Zi Wei Dou Shu AI: free Zi Wei Dou Shu chart calculator powered by AI. Generate your Purple Star Astrology birth chart, verify past events, and decode your destiny matrix. Ancient 紫微斗数 wisdom meets quantum probability modeling. Gives people interested in zi wei astrology and self-discovery the insights and tools they need.",
+    "reason": "Long-form storytelling to explain the problem and solution. Good for SEO and credibility."
+  },
+  {
+    "name": "X (Twitter)",
+    "category": "social",
+    "priority": 5,
+    "suggested_description": "Free Zi Wei Dou Shu chart calculator powered by AI. Generate your Purple Star Astrology birth chart, verify past events, and decode your destiny matrix. Ancient 紫微斗数 wisdom meets quantum probability modeling. Built for people interested in zi wei astrology and self-discovery. https://ziweiastrology.ai",
+    "reason": "Real-time reach and viral potential. Strong for announcements and community engagement."
+  }
+]

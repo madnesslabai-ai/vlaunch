@@ -1,0 +1,129 @@
+{
+  "project": {
+    "product_name": "OddsFlow",
+    "url": "https://oddsflow.ai",
+    "audience": "football bettors and sports traders",
+    "detected_category": "sports_analytics",
+    "generated_at": "2026-03-15T17:02:11.392Z"
+  },
+  "run": {
+    "mode": "deterministic",
+    "command_scope": "check",
+    "success": true
+  },
+  "assets": [
+    {
+      "asset_name": "positioning",
+      "path": ".vlaunch/assets/positioning.md",
+      "exists": true,
+      "status": "success",
+      "last_known_generation_mode": "ai-enhanced",
+      "last_updated_at": "2026-03-15T17:01:16.614Z",
+      "touched_in_current_command": false
+    },
+    {
+      "asset_name": "producthunt",
+      "path": ".vlaunch/assets/producthunt.md",
+      "exists": true,
+      "status": "success",
+      "last_known_generation_mode": "ai-enhanced",
+      "last_updated_at": "2026-03-15T17:01:16.614Z",
+      "touched_in_current_command": false
+    },
+    {
+      "asset_name": "medium-draft",
+      "path": ".vlaunch/assets/medium-draft.md",
+      "exists": true,
+      "status": "success",
+      "last_known_generation_mode": "ai-enhanced",
+      "last_updated_at": "2026-03-15T17:01:16.614Z",
+      "touched_in_current_command": false
+    },
+    {
+      "asset_name": "routing-plan",
+      "path": ".vlaunch/assets/routing-plan.md",
+      "exists": true,
+      "status": "success",
+      "last_known_generation_mode": "ai-enhanced",
+      "last_updated_at": "2026-03-15T17:01:16.614Z",
+      "touched_in_current_command": false
+    },
+    {
+      "asset_name": "directories",
+      "path": ".vlaunch/assets/directories.json",
+      "exists": true,
+      "status": "success",
+      "last_known_generation_mode": "ai-enhanced",
+      "last_updated_at": "2026-03-15T17:01:16.614Z",
+      "touched_in_current_command": false
+    },
+    {
+      "asset_name": "affiliate",
+      "path": ".vlaunch/assets/affiliate.md",
+      "exists": true,
+      "status": "success",
+      "last_known_generation_mode": "ai-enhanced",
+      "last_updated_at": "2026-03-15T17:01:16.614Z",
+      "touched_in_current_command": false
+    },
+    {
+      "asset_name": "checklist",
+      "path": ".vlaunch/assets/checklist.md",
+      "exists": true,
+      "status": "success",
+      "last_known_generation_mode": "ai-enhanced",
+      "last_updated_at": "2026-03-15T17:01:16.614Z",
+      "touched_in_current_command": false
+    },
+    {
+      "asset_name": "consistency-report",
+      "path": ".vlaunch/assets/consistency-report.md",
+      "exists": true,
+      "status": "success",
+      "last_known_generation_mode": "deterministic",
+      "last_updated_at": "2026-03-15T17:02:11.392Z",
+      "touched_in_current_command": true
+    }
+  ],
+  "consistency": {
+    "exists": true,
+    "consistency_rate": 90,
+    "checks_passed": 9,
+    "checks_total": 10,
+    "major_findings_count": 0,
+    "minor_findings_count": 1
+  },
+  "readiness": {
+    "launch_readiness_status": "Approximately 50–55% of the launch package is in place: the written assets are strong, the positioning is differentiated, and the channel strategy is well-reasoned for this audience. The biggest blocker is the absence of visual proof — no screenshots, no demo, and no specific published accuracy figures mean the \"verified track record\" claim, which is the entire product argument, cannot yet be verified by anyone looking at the launch materials. OddsFlow is not ready for a public Product Hunt or Reddit launch today, but is well-positioned for a soft launch in two to three weeks if the demo video, a concrete accuracy data point, and pricing clarity are addressed first.",
+    "readiness_level": "soft-launch-ready",
+    "readiness_score": 55,
+    "top_blockers": [
+      "No screenshots or UI visuals are present in any asset",
+      "Pricing is entirely absent",
+      "No demo video or GIF walkthrough exists",
+      "Social proof is not yet visible",
+      "Landing page CTA and conversion path are unclear"
+    ],
+    "recommended_next_actions": [
+      "Record a 2–3 minute screen-capture demo showing a real prediction, its confidence score, and the corresponding performance record entry",
+      "Publish a specific, dated accuracy summary on the landing page and in the Reddit launch post",
+      "Clarify and publish pricing before any community outreach begins",
+      "Build Reddit account credibility before the Week 1 launch post",
+      "Prepare 3–5 Product Hunt gallery images showing the dashboard, confidence score filter, league selector, and performance record view"
+    ]
+  },
+  "normalized_baseline": {
+    "product_name": "OddsFlow",
+    "core_one_liner": "OddsFlow — AI football predictions with a verified performance record",
+    "core_tagline": "Predict smarter. Verify everything.",
+    "core_audience": "football bettors and sports traders",
+    "core_proof_claim_language": [
+      "verified",
+      "published",
+      "track record",
+      "transparent",
+      "auditable",
+      "accountable"
+    ]
+  }
+}

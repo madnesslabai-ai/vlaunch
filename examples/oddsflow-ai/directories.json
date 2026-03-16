@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Reddit (r/soccerbetting, r/sportsbetting, r/FootballAnalytics)",
+    "category": "general",
+    "priority": 1,
+    "suggested_description": "Tired of tipsters with no accountability? OddsFlow is an AI prediction platform covering the top 5 European leagues — Premier League, Bundesliga, Serie A, La Liga, Ligue 1 — with 1x2, Asian handicap, and over/under signals ranked by confidence score. Every prediction is logged against a published track record you can audit yourself. Curious whether the model holds up? https://oddsflow.ai",
+    "reason": "r/soccerbetting and r/sportsbetting regularly call out tipping services with no verifiable history — OddsFlow's auditable performance record directly addresses the community's core skepticism and gives it something concrete to evaluate rather than dismiss."
+  },
+  {
+    "name": "YouTube",
+    "category": "content",
+    "priority": 2,
+    "suggested_description": "OddsFlow is an AI football prediction platform that covers Europe's top five leagues and delivers structured signals across 1x2, Asian handicap, and over/under markets — each ranked by a confidence score and logged against a verified performance record. Unlike anonymous tipster channels, OddsFlow publishes its full prediction history so bettors and sports traders can evaluate model accuracy before building a strategy around it. Visit oddsflow.ai to explore the track record.",
+    "reason": "YouTube creators covering football betting methodology — handicap markets, value identification, model-based staking — attract audiences who research tools thoroughly before using them; OddsFlow's auditable track record gives creators a defensible, data-backed product to feature rather than another unverified tipster service."
+  },
+  {
+    "name": "Telegram",
+    "category": "general",
+    "priority": 3,
+    "suggested_description": "OddsFlow delivers AI-generated football predictions across the Premier League, Bundesliga, Serie A, La Liga, and Ligue 1 — covering 1x2, Asian handicap, and over/under markets with confidence scores on every signal. What sets it apart: a fully published performance record so you can verify how the model performs over time, not just on last weekend's fixtures. https://oddsflow.ai",
+    "reason": "European football betting channels on Telegram are built around pre-match odds movement and market analysis — OddsFlow's confidence-scored, multi-market signals slot directly into that workflow, and its transparency gives admins a credible tool to share without risking their community's trust."
+  },
+  {
+    "name": "Twitter/X (Football Analytics & Betting Accounts)",
+    "category": "general",
+    "priority": 4,
+    "suggested_description": "AI football predictions with a verified track record — not another anonymous tipster. OddsFlow covers the top 5 European leagues with 1x2, Asian handicap, and over/under signals ranked by confidence score. Audit the model's history before you act on anything. https://oddsflow.ai",
+    "reason": "Football analytics and systematic betting accounts on Twitter/X have built followings that actively mock unverifiable tip services — OddsFlow's auditability is a direct counter-position to that noise and gives these accounts something credibility-consistent to share with their audiences."
+  },
+  {
+    "name": "Betting Forums (Betfair Community, SBR Forum, Punters Lounge)",
+    "category": "general",
+    "priority": 5,
+    "suggested_description": "OddsFlow is an AI football prediction platform covering the Premier League, Bundesliga, Serie A, La Liga, and Ligue 1. It generates 1x2, Asian handicap, and over/under signals with confidence scores — and publishes a full verified performance record for every signal type. If you're evaluating systematic approaches to European football, the track record is there to scrutinize: https://oddsflow.ai",
+    "reason": "Betfair Community, SBR Forum, and Punters Lounge are where serious value bettors stress-test systematic tools with hard questions about sample size and historical accuracy — OddsFlow's published performance record is built precisely for that kind of scrutiny, which gives it a credibility advantage over any tipster without one."
+  },
+  {
+    "name": "Substack / Betting Newsletters",
+    "category": "general",
+    "priority": 6,
+    "suggested_description": "OddsFlow is an AI football prediction platform built for data-driven bettors and sports traders. It covers Europe's top five leagues with structured 1x2, Asian handicap, and over/under signals — each scored by model confidence and benchmarked against a published performance history. For analysts writing about systematic betting, it's a tool your readers can actually verify. https://oddsflow.ai",
+    "reason": "Independent Substack writers covering European football betting have subscriber bases already primed for systematic, evidence-based tools — OddsFlow's combination of Asian handicap coverage and auditable results history gives newsletter authors something substantive to analyze rather than simply promote."
+  },
+  {
+    "name": "Discord (Sports Trading & Quant Betting Servers)",
+    "category": "general",
+    "priority": 7,
+    "suggested_description": "OddsFlow is an AI prediction platform covering Europe's top five leagues with 1x2, Asian handicap, and over/under signals — each assigned a confidence score and tracked against a verified performance record. Built for bettors and traders who want structured, auditable signals across multiple markets rather than gut-feel tips. Pull up the model history and judge for yourself: https://oddsflow.ai",
+    "reason": "Quant betting and sports trading Discord servers are actively stress-testing AI tools against real market data — OddsFlow's multi-market coverage and model transparency match the analytical bar these communities set, and the confidence scoring gives members a concrete variable to backtest against their own staking systems."
+  }
+]

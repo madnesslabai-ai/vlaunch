@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Sports / Betting Forums",
+    "category": "niche_community",
+    "priority": 1,
+    "suggested_description": "Oddsflow — an AI-powered football intelligence platform covering the Premier League, Bundesliga, Serie A, La Liga, and Ligue 1 — with 1x2 predictions, handicap analysis, and over/under signals you can verify against a published track record. Purpose-built for football bettors and sports traders who want a real edge.",
+    "reason": "Direct access to the target audience in niche communities. High engagement for relevant products."
+  },
+  {
+    "name": "Telegram / Discord Communities",
+    "category": "niche_community",
+    "priority": 2,
+    "suggested_description": "Oddsflow — an AI-powered football intelligence platform covering the Premier League, Bundesliga, Serie A, La Liga, and Ligue 1 — with 1x2 predictions, handicap analysis, and over/under signals you can verify against a published track record. Purpose-built for football bettors and sports traders who want a real edge.",
+    "reason": "Private community channels where sports bettors and traders share signals and discuss tools."
+  },
+  {
+    "name": "YouTube",
+    "category": "content",
+    "priority": 3,
+    "suggested_description": "Oddsflow: an AI-powered football intelligence platform covering the Premier League, Bundesliga, Serie A, La Liga, and Ligue 1 — with 1x2 predictions, handicap analysis, and over/under signals you can verify against a published track record. Gives football bettors and sports traders the insights and tools they need.",
+    "reason": "Video reviews, demos, and tutorials. High trust and discoverability."
+  },
+  {
+    "name": "Reddit",
+    "category": "community",
+    "priority": 4,
+    "suggested_description": "Oddsflow is an AI-powered football intelligence platform covering the Premier League, Bundesliga, Serie A, La Liga, and Ligue 1 — with 1x2 predictions, handicap analysis, and over/under signals you can verify against a published track record. Built for football bettors and sports traders — feedback welcome.",
+    "reason": "Community-driven discussion. Reach niche audiences in relevant subreddits."
+  },
+  {
+    "name": "X (Twitter)",
+    "category": "social",
+    "priority": 5,
+    "suggested_description": "An AI-powered football intelligence platform covering the Premier League, Bundesliga, Serie A, La Liga, and Ligue 1 — with 1x2 predictions, handicap analysis, and over/under signals you can verify against a published track record. Built for football bettors and sports traders. https://oddsflow.ai",
+    "reason": "Real-time reach and viral potential. Strong for announcements and community engagement."
+  }
+]

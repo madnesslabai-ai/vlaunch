@@ -1,0 +1,35 @@
+# Launch Checklist
+
+## Current strengths
+
+- **"Predict smarter. Verify everything."** is a sharp, differentiated tagline that directly counters the dominant weakness of competing tipster services — it will resonate immediately with the skeptical r/soccerbetting and SBR Forum audiences
+- **Verified track record as the core product narrative** is consistently threaded across all assets — positioning, Product Hunt first comment, Medium draft, and affiliate outreach all lead with auditability rather than win rate claims, which is the right instinct for this audience
+- **Product Hunt first comment is unusually strong** — the founder origin story (getting burned by unverifiable tipsters), the two community questions, and the honest "early" framing are exactly the format that earns upvotes from PH voters who distrust polished product pitches
+- **Routing plan is audience-specific and sequenced correctly** — prioritising Reddit and betting forums over paid channels, and explicitly avoiding TikTok, Instagram, and general tech communities, reflects a genuine understanding of how systematic bettors make adoption decisions
+- **Five-league, three-market coverage (1x2, Asian handicap, over/under) is clearly articulated** across all assets and positions OddsFlow as a platform rather than a single-market tip service — the Asian handicap emphasis in particular signals credibility to serious traders
+- **Affiliate outreach draft is well-targeted** — the seven partner archetypes (YouTube handicap analysts, Telegram admins, Substack writers) are specific enough to act on, and the "evaluate before you promote" framing in the outreach email reduces friction with credibility-conscious partners
+
+## Missing or weak areas
+
+- **No screenshots or UI visuals are present in any asset** — the confidence score interface, performance record dashboard, and league filtering are central to the product's credibility claim, but there is nothing for a prospective user to see; this is likely the single biggest conversion blocker on the landing page and Product Hunt page
+- **Pricing is entirely absent** — no pricing page, no tier structure, no free trial terms are visible in any asset; the affiliate commission draft references a subscription model but marks figures as placeholders, and betting community members will ask about cost before clicking through
+- **No demo video or GIF walkthrough exists** — the routing plan recommends YouTube as a priority channel and the Product Hunt checklist flags this as needed, but no script, outline, or recorded asset is present; a short screen-capture showing how confidence scores and the performance record work would materially reduce skepticism
+- **Social proof is not yet visible** — no beta user testimonials, no quoted accuracy figures from a real time period, no named early adopters; the "verified track record" claim is the product's entire credibility argument, but the assets don't surface any specific numbers (e.g., "68% accuracy on Premier League 1x2 signals over 200 predictions") that would make that claim concrete
+- **Landing page CTA and conversion path are unclear** — it is not evident from the assets whether oddsflow.ai has a free tier, a trial, or a direct signup flow; the Medium draft and Reddit copy both end with a URL but give no reason to click beyond curiosity
+- **No Reddit or forum account history is referenced** — posting OddsFlow's performance data to r/soccerbetting or SBR Forum from a brand-new account will likely be removed or ignored; the launch sequence does not address how to establish community presence before the Week 1 post
+- **Product Hunt hunter and supporter network not confirmed** — the PH checklist notes "hunter confirmed (if using one)" as unchecked, and no upvote mobilisation plan is present beyond "notify team and supporters"
+- **Responsible gambling or regulatory disclaimer is absent** — platforms in this space, particularly those targeting European regulated markets, are likely to need visible disclaimers for app store approval, ad compliance, and community posting rules on forums like Betfair Community
+
+## Recommended next actions
+
+1. **Record a 2–3 minute screen-capture demo showing a real prediction, its confidence score, and the corresponding performance record entry** — this is the single asset that will do the most work across every channel (Product Hunt gallery, YouTube, Telegram intros, Reddit posts) and makes the "verified track record" claim tangible rather than asserted
+2. **Publish a specific, dated accuracy summary on the landing page and in the Reddit launch post** — pick one market and one league (e.g., Asian handicap in the Premier League over the last 90 days), state the sample size and accuracy rate, and link to the full log; this is the format r/soccerbetting and SBR Forum will accept as evidence rather than marketing
+3. **Clarify and publish pricing before any community outreach begins** — add a pricing page to oddsflow.ai with at least one free or trial option clearly described; without this, Reddit and forum threads will stall on "how much does it cost" before the track record discussion can start
+4. **Build Reddit account credibility before the Week 1 launch post** — spend two weeks contributing to r/soccerbetting and r/FootballAnalytics without mentioning OddsFlow (commenting on odds movement threads, sharing non-promotional analysis); a 2-week-old account posting a product link will be flagged as spam regardless of content quality
+5. **Prepare 3–5 Product Hunt gallery images showing the dashboard, confidence score filter, league selector, and performance record view** — the PH page currently has no visuals confirmed; these images, sized at 1270x760, should be ready before a launch date is set
+6. **Identify and brief 10–15 people for Product Hunt launch day support** — reach out now to beta users, colleagues, or engaged contacts who can upvote and leave genuine comments between 12:01 AM and 9 AM PT on launch day; the first-hour velocity determines final ranking
+7. **Add a responsible gambling disclaimer to the landing page and all community-facing copy** — Betfair Community, SBR Forum, and Telegram channel admins in regulated markets will expect to see this before sharing or endorsing the product, and its absence creates unnecessary friction with the most credible distribution partners
+
+## Launch readiness status
+
+Approximately 50–55% of the launch package is in place: the written assets are strong, the positioning is differentiated, and the channel strategy is well-reasoned for this audience. The biggest blocker is the absence of visual proof — no screenshots, no demo, and no specific published accuracy figures mean the "verified track record" claim, which is the entire product argument, cannot yet be verified by anyone looking at the launch materials. OddsFlow is not ready for a public Product Hunt or Reddit launch today, but is well-positioned for a soft launch in two to three weeks if the demo video, a concrete accuracy data point, and pricing clarity are addressed first.

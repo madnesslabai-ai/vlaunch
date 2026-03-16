@@ -1,0 +1,35 @@
+{
+  "name": "vlaunch",
+  "version": "0.1.0",
+  "description": "Agentic CLI for launch preparation during vibe coding",
+  "bin": {
+    "vlaunch": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "dev:init": "ts-node src/index.ts init",
+    "dev:scan": "ts-node src/index.ts scan",
+    "dev:position": "ts-node src/index.ts position",
+    "dev:route": "ts-node src/index.ts route",
+    "dev:package": "ts-node src/index.ts package",
+    "dev:checklist": "ts-node src/index.ts checklist",
+    "dev:run": "ts-node src/index.ts run",
+    "start": "node dist/index.js",
+    "test": "node --require ts-node/register --test test/*.test.ts"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^17.3.1",
+    "yaml": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
